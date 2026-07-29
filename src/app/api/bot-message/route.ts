@@ -37,7 +37,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ text: reply, fallback: true });
     }
 
-    const model = ai.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = ai.getGenerativeModel({ model: "gemini-3.5-flash-lite" });
 
     let systemInstruction = "";
     if (isSpy) {

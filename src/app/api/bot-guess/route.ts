@@ -28,7 +28,7 @@ export async function POST(request: Request) {
       });
     }
 
-    const model = ai.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = ai.getGenerativeModel({ model: "gemini-3.5-flash-lite" });
 
     const prompt = `あなたは「お題当て人狼ゲーム（プロンプト・インポスター）」の勝敗判定器です。
 ゲームの正解のお題「${requestTopic}」に対して、スパイ（人狼）が「${requestGuess}」という推測を行いました。

@@ -50,7 +50,7 @@ export async function POST(request: Request) {
       });
     }
 
-    const model = ai.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = ai.getGenerativeModel({ model: "gemini-3.5-flash-lite" });
 
     const prompt = `あなたは「お題当て人狼ゲーム（プロンプト・インポスター）」のAIプレイヤー「${botName}」です。
 現在、会話（2ラウンド）が終了し、投票の時間になりました。

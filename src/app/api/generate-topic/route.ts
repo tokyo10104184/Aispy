@@ -16,7 +16,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ topic: randomTopic, fallback: true });
     }
 
-    const model = ai.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = ai.getGenerativeModel({ model: "gemini-3.5-flash-lite" });
 
     let prompt = `あなたは「お題当て人狼ゲーム」のお題作成器です。
 プレイヤー全員（AIと人間）が会話でお題について語り、誰が「お題を知らないスパイ（AIスパイ）」かを見抜くゲームです。

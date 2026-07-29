@@ -1482,7 +1482,7 @@ export default function Home() {
       {/* 共通フッター */}
       <footer className="mt-auto border-t border-slate-900 bg-slate-950/60 py-4 px-6 text-center text-xs text-slate-600 font-mono">
         <div>
-          © {new Date().getFullYear()} PROMPT IMPOSTER — POWERED BY GEMINI 2.5 FLASH
+          © {new Date().getFullYear()} PROMPT IMPOSTER — POWERED BY GEMINI 3.5 FLASH-LITE
         </div>
       </footer>
     </main>
